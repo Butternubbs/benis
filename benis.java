@@ -296,6 +296,31 @@ public class benis
             locs[7] = new Location(4, 3);
             locs[8] = new Location(4, 4);
         }
+        if(shape.equals("m"))
+        {
+            blocks = new Block[15];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[15];
+            color = Color.GREEN;
+            locs[0] = new Location(0, 0);
+            locs[1] = new Location(0, 4);
+            locs[2] = new Location(1, 0);
+            locs[3] = new Location(1, 1);
+            locs[4] = new Location(1, 3);
+            locs[5] = new Location(1, 4);
+            locs[6] = new Location(2, 0);
+            locs[7] = new Location(2, 2);
+            locs[8] = new Location(2, 4);
+            locs[9] = new Location(3, 0);
+            locs[10] = new Location(3, 2);
+            locs[11] = new Location(3, 4);
+            locs[12] = new Location(4, 0);
+            locs[13] = new Location(4, 2);
+            locs[14] = new Location(4, 4);
+        }
         if(shape.equals("n"))
         {
             blocks = new Block[13];
@@ -304,7 +329,7 @@ public class benis
                 blocks[i] = new Block();
             }
             locs = new Location[13];
-            color = Color.YELLOW;
+            color = Color.CYAN;
             locs[0] = new Location(0, 0);
             locs[6] = new Location(0, 4);
             locs[2] = new Location(1, 0);
@@ -319,7 +344,97 @@ public class benis
             locs[11] = new Location(4, 0);
             locs[12] = new Location(4, 4);
         }
-        
+        if(shape.equals("o"))
+        {
+            blocks = new Block[12];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[12];
+            color = Color.PINK;
+            locs[0] = new Location(0, 1);
+            locs[6] = new Location(0, 2);
+            locs[2] = new Location(0, 3);
+            locs[3] = new Location(1, 0);
+            locs[4] = new Location(1, 4);
+            locs[5] = new Location(2, 0);
+            locs[1] = new Location(2, 4);
+            locs[7] = new Location(3, 0);
+            locs[8] = new Location(3, 4);
+            locs[9] = new Location(4, 1);
+            locs[10] = new Location(4, 2);
+            locs[11] = new Location(4, 3);
+        }
+        if(shape.equals("p"))
+        {
+            blocks = new Block[12];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[12];
+            color = Color.ORANGE;
+            locs[0] = new Location(0, 0);
+            locs[6] = new Location(0, 1);
+            locs[2] = new Location(0, 2);
+            locs[3] = new Location(0, 3);
+            locs[4] = new Location(1, 0);
+            locs[5] = new Location(1, 4);
+            locs[1] = new Location(2, 0);
+            locs[7] = new Location(2, 1);
+            locs[8] = new Location(2, 2);
+            locs[9] = new Location(2, 3);
+            locs[10] = new Location(3, 0);
+            locs[11] = new Location(4, 0);
+        }
+        if(shape.equals("q"))
+        {
+            blocks = new Block[13];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[13];
+            color = Color.MAGENTA;
+            locs[0] = new Location(0, 1);
+            locs[6] = new Location(0, 2);
+            locs[2] = new Location(0, 3);
+            locs[3] = new Location(1, 0);
+            locs[4] = new Location(1, 4);
+            locs[5] = new Location(2, 0);
+            locs[1] = new Location(2, 4);
+            locs[7] = new Location(3, 0);
+            locs[8] = new Location(3, 3);
+            locs[9] = new Location(4, 1);
+            locs[10] = new Location(4, 2);
+            locs[11] = new Location(4, 3);
+            locs[12] = new Location(4, 4);
+        }
+        if(shape.equals("r"))
+        {
+            blocks = new Block[14];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[14];
+            color = Color.RED;
+            locs[0] = new Location(0, 0);
+            locs[6] = new Location(0, 1);
+            locs[2] = new Location(0, 2);
+            locs[3] = new Location(0, 3);
+            locs[4] = new Location(1, 0);
+            locs[5] = new Location(1, 4);
+            locs[1] = new Location(2, 0);
+            locs[7] = new Location(2, 1);
+            locs[8] = new Location(2, 2);
+            locs[9] = new Location(2, 3);
+            locs[10] = new Location(3, 0);
+            locs[11] = new Location(3, 3);
+            locs[12] = new Location(4, 0);
+            locs[13] = new Location(4, 4);
+        }
         if(shape.equals("s"))
         {
             blocks = new Block[13];
@@ -343,7 +458,147 @@ public class benis
             locs[11] = new Location(4, 2);
             locs[12] = new Location(4, 3);
         }
-
+        if(shape.equals("t"))
+        {
+            blocks = new Block[9];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[9];
+            color = Color.YELLOW;
+            locs[0] = new Location(0, 0);
+            locs[6] = new Location(0, 1);
+            locs[2] = new Location(0, 2);
+            locs[3] = new Location(0, 3);
+            locs[4] = new Location(0, 4);
+            locs[5] = new Location(1, 2);
+            locs[1] = new Location(2, 2);
+            locs[7] = new Location(3, 2);
+            locs[8] = new Location(4, 2);
+        }
+        if(shape.equals("u"))
+        {
+            blocks = new Block[11];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[11];
+            color = Color.GREEN;
+            locs[0] = new Location(0, 0);
+            locs[6] = new Location(0, 4);
+            locs[2] = new Location(1, 0);
+            locs[3] = new Location(1, 4);
+            locs[4] = new Location(2, 0);
+            locs[5] = new Location(2, 4);
+            locs[1] = new Location(3, 0);
+            locs[7] = new Location(3, 4);
+            locs[8] = new Location(4, 1);
+            locs[9] = new Location(4, 2);
+            locs[10] = new Location(4, 3);
+        }
+        if(shape.equals("v"))
+        {
+            blocks = new Block[9];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[9];
+            color = Color.CYAN;
+            locs[0] = new Location(0, 0);
+            locs[6] = new Location(0, 4);
+            locs[2] = new Location(1, 0);
+            locs[3] = new Location(1, 4);
+            locs[4] = new Location(2, 1);
+            locs[5] = new Location(2, 3);
+            locs[1] = new Location(3, 1);
+            locs[7] = new Location(3, 3);
+            locs[8] = new Location(4, 2);
+        }
+        if(shape.equals("w"))
+        {
+            blocks = new Block[13];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[13];
+            color = Color.PINK;
+            locs[0] = new Location(0, 0);
+            locs[1] = new Location(0, 4);
+            locs[2] = new Location(1, 0);
+            locs[3] = new Location(1, 4);
+            locs[4] = new Location(2, 0);
+            locs[5] = new Location(2, 2);
+            locs[6] = new Location(2, 4);
+            locs[7] = new Location(3, 0);
+            locs[8] = new Location(3, 1);
+            locs[9] = new Location(3, 3);
+            locs[10] = new Location(3, 4);
+            locs[11] = new Location(4, 0);
+            locs[12] = new Location(4, 4);
+        }
+        if(shape.equals("x"))
+        {
+            blocks = new Block[9];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[9];
+            color = Color.ORANGE;
+            locs[0] = new Location(0, 0);
+            locs[1] = new Location(0, 4);
+            locs[2] = new Location(1, 1);
+            locs[3] = new Location(1, 3);
+            locs[4] = new Location(2, 2);
+            locs[5] = new Location(3, 1);
+            locs[6] = new Location(3, 3);
+            locs[7] = new Location(4, 0);
+            locs[8] = new Location(4, 4);
+        }
+        if(shape.equals("y"))
+        {
+            blocks = new Block[7];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[7];
+            color = Color.MAGENTA;
+            locs[0] = new Location(0, 0);
+            locs[1] = new Location(0, 4);
+            locs[2] = new Location(1, 1);
+            locs[3] = new Location(1, 3);
+            locs[4] = new Location(2, 2);
+            locs[5] = new Location(3, 2);
+            locs[6] = new Location(4, 2);
+        }
+        if(shape.equals("z"))
+        {
+            blocks = new Block[13];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[13];
+            color = Color.RED;
+            locs[0] = new Location(0, 0);
+            locs[6] = new Location(0, 1);
+            locs[2] = new Location(0, 2);
+            locs[3] = new Location(0, 3);
+            locs[4] = new Location(0, 4);
+            locs[5] = new Location(1, 3);
+            locs[1] = new Location(2, 2);
+            locs[7] = new Location(3, 1);
+            locs[8] = new Location(4, 0);
+            locs[9] = new Location(4, 1);
+            locs[10] = new Location(4, 2);
+            locs[11] = new Location(4, 3);
+            locs[12] = new Location(4, 4);
+        }
         for(int i = benisrun.meme; i > 0; i--)
         {
             for(int j = 0; j < locs.length; j++)
