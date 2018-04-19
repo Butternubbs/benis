@@ -35,6 +35,7 @@ public class benisrun implements ArrowListener
     public void upPressed()
     {
         activebenis.rotate();
+        display.setTitle("DON'T BREAK THE BENIS! :(");
     }
 
     public void downPressed()
@@ -45,11 +46,13 @@ public class benisrun implements ArrowListener
     public void leftPressed()
     {
         activebenis.translate(0, -1);
+        display.setTitle("DON'T BREAK THE BENIS! :(");
     }
 
     public void rightPressed()
     {
         activebenis.translate(0, 1);
+        display.setTitle("DON'T BREAK THE BENIS! :(");
     }
 
     public void spacePressed()
