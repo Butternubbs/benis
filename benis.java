@@ -599,6 +599,21 @@ public class benis
             locs[11] = new Location(4, 3);
             locs[12] = new Location(4, 4);
         }
+        if(shape.equals(" "))
+        {
+            blocks = new Block[5];
+            for(int i = 0; i < blocks.length; i++)
+            {
+                blocks[i] = new Block();
+            }
+            locs = new Location[5];
+            color = Color.BLACK;
+            locs[0] = new Location(5, 0);
+            locs[1] = new Location(5, 1);
+            locs[2] = new Location(5, 2);
+            locs[3] = new Location(5, 3);
+            locs[4] = new Location(5, 4);
+        }
         for(int i = benisrun.meme; i > 0; i--)
         {
             for(int j = 0; j < locs.length; j++)
