@@ -63,12 +63,10 @@ public class benisrun implements ArrowListener
     {
         int score = 0;
         int level = 1;
-        try { Thread.sleep(1000); } catch(Exception e) {}
+        try { Thread.sleep(1500); } catch(Exception e) {}
         display.showBlocks();
         while (true)
         {
-            try { Thread.sleep(100); } catch(Exception e) {}
-            display.showBlocks();
             try { Thread.sleep(100); } catch(Exception e) {}
             display.showBlocks();
 
